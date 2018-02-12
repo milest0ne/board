@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  text-align:center;
+  margin: 0;
+  padding: 15px;
+  border-bottom: black 2px solid;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid #navigator {
+  border-right: black 2px solid;
+}
+#grid #content {
+  padding: 15px;
+}
+#content h2 {
+  margin-top: 0;
+}
